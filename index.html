@@ -24,22 +24,35 @@
           <input type="tel" name="phone_field">
         </div>
 
-        <label name = "email_field">Email Address: </label>
-        <input type="email" name="email_field">
+        <div class="">
+          <label name = "email_field">Email Address: </label>
+          <input type="email" name="email_field">
+        </div>
 
-        <label name = "gender_field">Gender: </label>
-        <input type="radio" name="gender_field" value="Male">
-        <input type="radio" name="gender_field" value="Female">
+        <div class="">
+          <label name = "gender_field">Gender: </label>
+          <input type="radio" name="gender_field" value="Male">
+          <input type="radio" name="gender_field" value="Female">
+        </div>
 
-        <label name = "age_field">Age: </label>
+        <div class="">
+          <label name = "age_field">Age: </label>
+        </div>
+
       </fieldset>
 
       <h2>My Availability</h2>
       <fieldset>
         <!--- <legend>My Availability</legend> -->
-        <label name = "available_field[]">Days Available: </label>
+        <div>
+          <label name = "available_field[]">Days Available: </label>
+        </div>
 
-        <label name = "comments_field">Any Comments? </label>
+        <div>
+          <label name = "comments_field">Any Comments? </label>
+          <textarea name="comments_field" rows="30" cols="10"></textarea>
+        </div>
+
       </fieldset>
 
       <input type="hidden" name="hidden_field" value="gtoledorodriguez">
