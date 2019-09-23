@@ -12,12 +12,32 @@
         <h2>My Info</h2>
         <label name="first_name_field">First Name: </label>
         <input type="text" name="first_name_field">
+
+        <label name ="last_name_field">Last Name: </label>
+        <input type="text" name="last_name_field">
+
+        <label name = "phone_field">Phone Number: </label>
+        <input type="tel" name="phone_field">
+
+        <label name = "email_field">Email Address: </label>
+        <input type="email" name="email_field">
+
+        <label name = "gender_field">Gender: </label>
+        <input type="radio" name="gender_field" value="Male">
+        <input type="radio" name="gender_field" value="Female">
+
+        <label name = "age_field">Age: </label>
       </fieldset>
 
       <h2>My Availability</h2>
       <fieldset>
         <!--- <legend>My Availability</legend> -->
+        <label name = "available_field[]">Days Available: </label>
+
+        <label name = "comments_field">Any Comments? </label>
       </fieldset>
+
+      <input type="hidden" name="hidden_field" value="gtoledorodriguez">
 
       <input type="submit" value="Send Me">
     </form>
